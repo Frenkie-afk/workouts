@@ -20,7 +20,7 @@
 
 img {
     display: block;
-    width: 100%;
+    /*width: 100%;*/
 }
 
 header {
@@ -41,4 +41,84 @@ header .container {
 h1 {
     font-size: 50px;
     font-weight: 400;
+}
+
+section {
+    display: flex;
+}
+
+.aside {
+    max-width: 240px;
+    background-color: #000;
+    padding-top: 25px;
+}
+
+.aside ul {
+    list-style: none;
+    min-width: 240px;
+    margin-bottom: 40px;
+}
+
+.aside li {
+    margin-bottom: 10px;
+    transition: .3s;
+}
+
+.aside li:hover {
+    background-color: #ff0000;
+}
+
+.aside li:hover a{
+    color: #fff;
+}
+
+.aside li a {
+    padding-left: 25px;
+    height: 34px;
+    display: flex;
+    align-items: center;
+    color: #c2c2c2;
+    text-decoration: none;
+    font-family: 'Metropolis-SemiBold', sans-serif;
+    font-size: 13px;
+    transition: .3s;
+}
+
+.aside li a span {
+    display: flex;
+    justify-content: center;
+    width: 21px;
+    margin-right: 18px;
+}
+
+.aside form {
+    display: flex;
+    height: 42px;
+    background-color: #fff;
+    padding: 0 17px;
+    margin-left: 25px;
+    margin-bottom: 20px;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 3px;
+    max-width: 188px;
+}
+
+.aside form button {
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.aside form input{
+    width: 75%;
+    color: #000;
+    font-size: 15px;
+    outline: none;
+    border: none;
+}
+
+
+input::placeholder {
+    color: #000;
 }
