@@ -423,8 +423,9 @@ input::placeholder {
 }
 
 .select select:focus {
-    -webkit-box-shadow: -2px -1px 5px 1px rgba(0, 0, 0, 0.56);
-    box-shadow: -2px -1px 5px 1px rgba(0, 0, 0, 0.56);
+    -webkit-box-shadow: 2px 1px 9px 0 rgba(0, 0, 0, 0.30);
+    box-shadow: 2px 1px 9px 0 rgba(0, 0, 0, 0.30);
+
 }
 
 .select select:first-of-type {
